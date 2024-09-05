@@ -53,7 +53,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   Met de screenreader heb je geen volgend kopniveau. Als je op de k drukt ga je meteen helemaal naar beneden bij de footer. Als ik op de h druk ga je naar de stukjes die gaan over het vinden van een baan. Als je een aantal keer op het pijltje drukt gaat de screenreader de woorden spellen. Heel veel funties worden voorgelezen met koppeling etc. Zo weet je wel meteen dat je daar op kan klikken. Het legt bij een aantal uit wat je bij die koppeling kan doen. Als je met de tabtoets over de pagina gaat komt er een zwart randje om de verschillende funties.
 
-  <img src="">
+  <img src="basiswebsite/images/">
+  <img src="basiswebsite/images/">
+  <img src="basiswebsite/images/">
+  <img src="basiswebsite/images/">
+  <img src="basiswebsite/images/">
 
   ### Bevindingen
 -De website heeft veel errors in de html.
