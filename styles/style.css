@@ -28,4 +28,15 @@
 /****************/
 
 /* jouw code */
+img {
+	width: 30em;
+}
 
+.mclogo {
+width: 5em;
+}
+
+.hamburger-menu img {
+	width: 3em;
+	margin: 1.5em 0;
+}
