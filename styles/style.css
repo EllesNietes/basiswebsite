@@ -19,6 +19,15 @@
 	--color-background:#eee;
 }
 
+header {
+	border-bottom: 1em#514d4d;
+	background-color: 	#06300A;
+}
+
+header a{
+	text-decoration: none;
+	
+}
 
 
 
@@ -29,14 +38,68 @@
 
 /* jouw code */
 img {
-	width: 30em;
+	width: 24.5em;
+	margin: 0;
 }
 
 .mclogo {
-width: 5em;
+width: 3em;
 }
 
 .hamburger-menu img {
-	width: 3em;
-	margin: 1.5em 0;
+	width: 22px;
+	margin: 0.1em 0;
+	margin-bottom: 1em;
 }
+
+.hamburger-menu {
+	text-decoration: none;
+	border: none;
+	background-color: 	#06300A;
+}
+
+.cheeseburger {
+	border: solid 2px #f1f0f0;
+	border-radius: 0.2em;
+	margin-bottom: 1em;
+	margin: 0.5em;
+}
+
+h2 {
+	font-family: 'McDonalds Helvetica Black' ;
+	font-weight: 900;
+	padding: 0 0.6em;
+	margin: 0;
+}
+
+h3 {
+	font-family: 'McDonalds Helvetica Black' ;
+	padding: 0 0.9em;
+	margin: 0;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif ;
+	padding: 0 1em;
+	font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'McDonalds Helvetica Black';
+    font-style: normal;
+    font-weight: lighter;
+    src: local('McDonalds Helvetica Black'), url('McDonalds_Helvetica.woff') format('woff');
+    }
+
+a button  {
+	margin: 1em;
+	background-color: #ffce00;
+	border: none;
+	padding: 1em;
+	border-radius: 0.2em;
+}
+
+body {
+	margin: 0;
+}
+

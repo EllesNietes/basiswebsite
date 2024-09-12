@@ -38,11 +38,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Mcdonalds
-  <img src="basiswebsite/images/homepagina.jpg" width="375px" alt="Homepagina van de mcdonalds">
+  <img src="readme-images/homepagina.jpg" width="375px" alt="Homepagina van de mcdonalds">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Goed om te weten 
-  <img src="basiswebsite/images/tweede-pagina.jpg" width="375px" alt="De goed om te weten pagina van de mcdonalds">
+  <img src="readme-images/tweede-pagina.jpg" width="375px" alt="De goed om te weten pagina van de mcdonalds">
  
 </details>
 
@@ -53,11 +53,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   Met de screenreader heb je geen volgend kopniveau. Als je op de k drukt ga je meteen helemaal naar beneden bij de footer. Als ik op de h druk ga je naar de stukjes die gaan over het vinden van een baan. Als je een aantal keer op het pijltje drukt gaat de screenreader de woorden spellen. Heel veel funties worden voorgelezen met koppeling etc. Zo weet je wel meteen dat je daar op kan klikken. Het legt bij een aantal uit wat je bij die koppeling kan doen. Als je met de tabtoets over de pagina gaat komt er een zwart randje om de verschillende funties.
 
-  <img src="basiswebsite/images/">
-  <img src="basiswebsite/images/">
-  <img src="basiswebsite/images/">
-  <img src="basiswebsite/images/">
-  <img src="basiswebsite/images/">
+  <img src="readme-images/checklist-1">
+  <img src="readme-images/checklist-2">
+  <img src="readme-images/checklist-3">
+  <img src="readme-images/checklist-4">
+  <img src="readme-images/checklist-5">
 
   ### Bevindingen
 -De website heeft veel errors in de html.
@@ -78,13 +78,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdownschets.png" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
+  
 
 </details>
 
@@ -95,20 +97,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het schrijven van de html ging wel redelijk goed. Ik heb al alle tekst en afbeeldingen in een header, body en footer gezet. Ik heb al een aantal dingen opgesplitst in sections en articles. En in css al wat geprobeerd met borders, margins, fonts, widhts. Wel moet ik nog kijken naar hoe ik alles in de nav ga zetten.
+
+<img src="readme-images/website-week-2" alt="Screenshot van de tot nu toe gemaakte website">
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  student 1 Elles:
+  -Ik zou graag willen weten hoe je de css op de 2e pagina kan krijgen. Aangezien alles van de eerste pagina ook word toegepast op de 2e.
+  -Wat kan ik het beste toepassen bij de cheeseburger/afbeeldingen en hoe? (flexbox/grid)
+  -Hoe kan ik een uitklap menu maken, die zichtbaar wordt als de pagina een groter formaat is?
+
+  student 2 Artemis:
+  -Problemen met het starten van het maken van de website
+
+  student 3 Marie Janette:
+  -Een schuifknop, indeling van afbeelding
+
+  student 4 Brita:
+
+  student 5 Milla:
 
 
   ### Verslag van meeting
