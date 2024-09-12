@@ -101,7 +101,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Het schrijven van de html ging wel redelijk goed. Ik heb al alle tekst en afbeeldingen in een header, body en footer gezet. Ik heb al een aantal dingen opgesplitst in sections en articles. En in css al wat geprobeerd met borders, margins, fonts, widhts. Wel moet ik nog kijken naar hoe ik alles in de nav ga zetten.
 
-<img src="readme-images/website-week-2" alt="Screenshot van de tot nu toe gemaakte website">
+<img src="readme-images/website-week-2.png" alt="Screenshot van de tot nu toe gemaakte website">
+<img src="readme-images/code-website-week-2.png" alt="Screenshot van de tot nu toe gemaakte html">
+<img src="readme-images/css-website-week-2.png" alt="Screenshot van de tot nu toe gemaakte css">
+
 
 
   ### Agenda voor meeting
