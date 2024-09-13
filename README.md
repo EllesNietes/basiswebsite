@@ -108,7 +108,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
   student 1 Elles:
   -Ik zou graag willen weten hoe je de css op de 2e pagina kan krijgen. Aangezien alles van de eerste pagina ook word toegepast op de 2e.
@@ -133,6 +132,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - punt 2
   - nog een punt
   - ...
+
+  - focus state voor toegankelijkheid
+  - op de body een class zetten op de 2e pagina (aan docent vragen) en anders een 2e css
+  - media query, als mijn scherm zo groot is dan doet het dit @media only screen (max widht)
+  - menu ook met @media.. en de opdracht maken over het hamburger menu
+  - possition relative voor hamburger plaatje, position absolute voor tekst, left: ..px en dan ook weer aanpassen voor mobiele versie
 
 </details>
 
