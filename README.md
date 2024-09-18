@@ -128,11 +128,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
   - focus state voor toegankelijkheid
   - op de body een class zetten op de 2e pagina (aan docent vragen) en anders een 2e css
   - media query, als mijn scherm zo groot is dan doet het dit @media only screen (max widht)

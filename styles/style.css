@@ -17,11 +17,16 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+	--color-button:#ffce00;
+	--header:#06300A;
 }
 
 header {
 	border-bottom: 1em#514d4d;
-	background-color: 	#06300A;
+	background-color: var(--header);
+	display: flex;
+	
+
 }
 
 header a{
@@ -29,8 +34,32 @@ header a{
 	
 }
 
+header nav {
+	display: flex;
+}
+
+header a img{
+	width: 3em;
+}
+
+header nav img{
+	width: 22px;
+	margin: 0.1em 0;
+	margin-bottom: 1em;
+
+}
 
 
+header nav button{
+	background-color: #06300A;
+	text-decoration: none;
+	border: none;
+	margin-top: 12px;
+}
+
+:hover {
+	color: 
+}
 
 /****************/
 /* JOUW STYLING */
@@ -42,15 +71,6 @@ img {
 	margin: 0;
 }
 
-.mclogo {
-width: 3em;
-}
-
-.hamburger-menu img {
-	width: 22px;
-	margin: 0.1em 0;
-	margin-bottom: 1em;
-}
 
 .hamburger-menu {
 	text-decoration: none;
@@ -67,7 +87,7 @@ width: 3em;
 
 h2 {
 	font-family: 'McDonalds Helvetica Black' ;
-	font-weight: 900;
+	font-weight: 100;
 	padding: 0 0.6em;
 	margin: 0;
 }
@@ -88,12 +108,13 @@ p {
     font-family: 'McDonalds Helvetica Black';
     font-style: normal;
     font-weight: lighter;
-    src: local('McDonalds Helvetica Black'), url('McDonalds_Helvetica.woff') format('woff');
+    src: local('McDonalds Helvetica Black'), url('McDonalds_Helvetica.woff') format('woff'); /* McDonalds Helvetica Font | Font.Download. (n.d.). https://font.download/font/mcdonalds-helvetica*/
     }
 
+	/*Dafont. (2024, March 15). McDonald’s Font. Dafont Free. https://www.dafontfree.io/mcdonalds-font/*/
 a button  {
 	margin: 1em;
-	background-color: #ffce00;
+	background-color: var(--color-button);
 	border: none;
 	padding: 1em;
 	border-radius: 0.2em;
@@ -103,4 +124,8 @@ body {
 	margin: 0;
 }
 
+article {
+	margin: 0 0.5em;
+}
 
+/*pagina 2 */
