@@ -143,7 +143,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -152,19 +151,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  student 1 Elles: Kan ik een class op de body zetten voor op de 2e pagina?
+
+  student 2 Artemis: Hoe krijg ik een stuk tekst over een afbeelding
+
+  student 3 Marie Janette: Hoe kan ik een video toevoegen en hoe stopzetten?
+
+  student 4 Brita: 
+
+  student 5 Milla: 
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - @media query motion stopzetten
+  - Met een class op de body kan je de pagina's onderscheiden
+  - Met positioning kan je elementen over een element zetten
+  -
 - ...
 
 </details>
@@ -257,5 +261,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   1. bron 1
   2. bron 2
   3. ...
+  - voor Het hamburgermenu heb ik de opdrachten uit codepen gebruikt. Alleen kwam ik er bij een paar stappen niet uit, dus heb ik om hulp gevraagd aan een medestudent (Kelly Kha). Zij had de opdracht wel al uitgevoerd.
 
 </details>
