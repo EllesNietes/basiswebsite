@@ -36,7 +36,7 @@ header {
 
 }
 
-/*
+/*hamburger menu*/
 header{
 	display: flex;
 	justify-content: space-between;
@@ -45,13 +45,18 @@ header{
 	position: sticky;
 }
 
+header li a {
+	color: white;
+}
+
 nav {
 	position: fixed;
 	left:0;
 	right:0;
 	top:0;
   	bottom:0;
-	translate: -100% 0%;
+	translate: -100% 0%;`
+	justify-content: center;
 }
 
 header > button {
@@ -59,8 +64,70 @@ header > button {
   
 }
 
- */
+@media (min-width:38em) {
+  header > button {
+	display: none;
+}
+}
 
+nav button {
+	display: none;
+}
+
+    
+  
+nav {
+	position: static;
+	translate: unset;
+	padding: 1em;
+	background-image: none;
+}
+
+  
+  nav ul {
+    gap: 1em;
+    display: flex;
+  }
+
+
+  
+  nav a {
+    display: flex;
+    align-items: center;
+    border: none;
+  }
+
+  li {
+	list-style-type: none;
+  }
+
+/*einde hamburger menu*/
+
+
+/*Flexbox afbeeldingen met tekst*/
+section {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+  }
+  
+article {
+	background: white;
+	margin: 1.9em 0.6em;
+	padding: 1.25em 1em;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	border-radius: 1em;
+  }
+  
+section img {
+	width: 15em;
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: contain;
+  }
+/*Einde flexbox afbeeldingen met tekst*/
 
 
 header a{
@@ -70,6 +137,8 @@ header a{
 
 header nav {
 	display: flex;
+	gap: 1em;
+	text-decoration: none;
 }
 
 header a img{
