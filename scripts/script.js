@@ -7,7 +7,7 @@ menu.addEventListener('click', openMenu);
 
 function openMenu () {
   var nav = document.querySelector('nav');
-  nav.classList.add('toonMenu');
+  nav.classList.toggle('toonMenu');
 }
 
 var sluit =
@@ -19,4 +19,5 @@ function sluitMenu () {
   var nav = document.querySelector('nav');
   nav.classList.remove('toonMenu');
 }
+
 

@@ -5,6 +5,9 @@
   box-sizing:border-box;  
 }
 
+html {
+	zoom: normal;
+}
 
 
 
@@ -25,62 +28,63 @@
 :focus {
 	border: #2e9839;
 	border-radius: 2px;
-	margin: 1em;
-}
-
-header {
-	border-bottom: 1em#514d4d;
-	background-color: var(--header);
-	display: flex;
-	
-
+	padding: 0.2em;
 }
 
 /*hamburger menu*/
+h1 {
+	margin: 0;
+    font-size: medium;
+}
+
 header{
-	display: flex;
 	justify-content: space-between;
 	padding: 0 2em;
-	align-items: center;
 	position: sticky;
+	background-color: var(--header);
+	display: flex;
+	top: 0;
+	z-index: 2;
 }
 
 header li a {
 	color: white;
+	font-family:'Speedee Bold';
+	font-size: medium;
 }
 
-nav {
-	position: fixed;
-	left:0;
-	right:0;
-	top:0;
-  	bottom:0;
-	translate: -100% 0%;`
-	justify-content: center;
-}
+
 
 header > button {
   order:0;
-  
+  background: none;
+  border: none;
+  margin-right: -2em;
+  z-index: 2;
+  position: relative;
 }
 
-@media (min-width:38em) {
+header > button:nth-of-type(2) {
+	display: none;
+}
+
+@media (min-width:1040px) {
   header > button {
 	display: none;
 }
 }
 
-nav button {
-	display: none;
-}
-
-    
   
 nav {
 	position: static;
 	translate: unset;
 	padding: 1em;
 	background-image: none;
+	position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
   
@@ -88,8 +92,6 @@ nav {
     gap: 1em;
     display: flex;
   }
-
-
   
   nav a {
     display: flex;
@@ -99,6 +101,11 @@ nav {
 
   li {
 	list-style-type: none;
+    border-bottom: dashed;
+	border-bottom-width: 0.2em;
+    border-color: white;
+    border-width: 0.1em;
+    font-size: larger;
   }
 
 /*einde hamburger menu*/
@@ -113,11 +120,33 @@ header nav {
 	display: flex;
 	gap: 3em;
 	text-decoration: none;
-	justify-self: center;
+	left: auto;
+	bottom: 40em;
+}
+
+@media (max-width: 65em) {
+	header nav {
+		translate: -200% 0%;
+	}
+}
+.toonMenu {
+	translate: 0% 0%;
+	background-color: var(--header);
+    top: 3em;
+	bottom: 0;
+	flex-direction: column;
+    width: 100%;
+    align-items: center;
+
 }
 
 header a img{
 	width: 3em;
+	margin: 0 -1.5em
+}
+
+header img:nth-child(2) {
+	width: 1em;
 }
 
 header nav img{
@@ -135,39 +164,75 @@ header nav button{
 	margin-top: 12px;
 }
 
-
-
-nav {
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-  }
-
-/*Flexbox afbeeldingen met tekst*/
 section {
+margin: 1em;
+}
+
+/*grid afbeeldingen met tekst*/
+section:nth-of-type(2) {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, auto); 
+  	gap: 1em;
+	max-width: 100%;
+} /*Grid Garden. (n.d.). Een Spel Om CSS Grid Te Leren. https://cssgridgarden.com/#nl*/
+
+@media (max-width: 60em){
+section:nth-of-type(2) {
 	display: flex;
-	justify-content: space-around;
 	flex-wrap: wrap;
-  }
-  
-article {
+}
+}
+
+  section:nth-of-type(2) article {
+	border: none;
 	background: white;
 	margin: 1.9em 0.6em;
-	padding: 1.25em 1em;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	border-radius: 1em;
+	padding: 0 0.4em;
+
   }
   
-section img {
-	width: 15em;
+section:nth-of-type(2) img {
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	object-fit: contain;
   }
+
+    section:nth-of-type(3) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(15em, 1fr));
+  gap: 1em;
+  position: relative;
+  }
+
+  section:nth-of-type(3) button {
+  	position: absolute;
+    bottom: 0;
+  } /* Positioning a Button on the Bottom of a Div. (z.d.). | SheCodes. https://www.shecodes.io/athena/4505-positioning-a-button-on-the-bottom-of-a-div*/
+  
+@media (max-width: 60em){
+	section:nth-of-type(3) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	}
+
+  section:nth-of-type(3) article {
+	border: none;
+	background: white;
+	margin: 3em 0.6em;
+	padding: 0 0.4em;
+
+  }
+  
+section:nth-of-type(3) img {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: contain;
+  }
+
 /*Einde flexbox afbeeldingen met tekst*/
 
 
@@ -181,10 +246,14 @@ section img {
 
 /* jouw code */
 img {
-	width: 24.5em;
+	width: 2em;
 	margin: 0;
 }
 
+section:nth-of-type(1) img{
+	width: -webkit-fill-available;
+	justify-content: center;
+}
 
 h2 {
 	font-family: 'McDonalds Helvetica Black' ;
@@ -196,13 +265,14 @@ h2 {
 h3 {
 	font-family: 'McDonalds Helvetica Black' ;
 	padding: 0 0.9em;
-	margin: 0;
+	margin: 0.5em 0;
 }
 
 p {
-	font-family: Arial, Helvetica, sans-serif ;
+	font-family: 'Speedee Bold',Arial, Helvetica, sans-serif ;
 	padding: 0 1em;
 	font-weight: lighter;
+	text-align: left;
 }
 
 @font-face {
@@ -211,6 +281,17 @@ p {
     font-weight: lighter;
     src: local('McDonalds Helvetica Black'), url('McDonalds_Helvetica.woff') format('woff'); /* McDonalds Helvetica Font | Font.Download. (n.d.). https://font.download/font/mcdonalds-helvetica*/
     }
+
+
+@font-face {
+	font-family: "Speedee Bold";
+	src: url("https://db.onlinewebfonts.com/t/827d075b1538829cc0db75696e4d5fa2.eot");
+	src: url("https://db.onlinewebfonts.com/t/827d075b1538829cc0db75696e4d5fa2.eot?#iefix")format("embedded-opentype"),
+	url("https://db.onlinewebfonts.com/t/827d075b1538829cc0db75696e4d5fa2.woff2")format("woff2"),
+	url("https://db.onlinewebfonts.com/t/827d075b1538829cc0db75696e4d5fa2.woff")format("woff"),
+	url("https://db.onlinewebfonts.com/t/827d075b1538829cc0db75696e4d5fa2.ttf")format("truetype"),
+	url("https://db.onlinewebfonts.com/t/827d075b1538829cc0db75696e4d5fa2.svg#Speedee Bold")format("svg");
+} /*Icons made from <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed by CC BY 4.0*/
 
 	/*Dafont. (2024, March 15). McDonald’s Font. Dafont Free. https://www.dafontfree.io/mcdonalds-font/*/
 a button  {
@@ -225,9 +306,29 @@ body {
 	margin: 0;
 }
 
-article {
-	margin: 0 0.5em;
+section:nth-of-type(1) article{
+	border: solid 0.1em rgb(222, 222, 222);
+	padding: 0;
 }
+
+@media (min-width: 1024px){
+	section:nth-of-type(1) article{
+	position: relative;
+	z-index: 1;
+	background-color: white;
+	width: 25em;
+	left: 1em;
+	bottom: 20em;
+	padding: 1em;
+	border-radius: 1em;
+	margin-bottom: -17em;
+}
+}
+
+
+
+
+
 
 button {
 	cursor: pointer;
@@ -258,8 +359,14 @@ article button:hover  {
 	background-color: var(--color-button-hover)
 }
 
+header a:hover {
+	color: var(--color-button);
+}
 
-
+::selection{
+	background-color: #ffce00;
+	color: white;
+}
 
 
 /*pagina 2 */

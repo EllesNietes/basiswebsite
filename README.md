@@ -122,8 +122,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   student 4 Brita:
 
-  student 5 Milla:
-
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -149,17 +147,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
   student 1 Elles: Kan ik een class op de body zetten voor op de 2e pagina?
 
   student 2 Artemis: Hoe krijg ik een stuk tekst over een afbeelding
 
   student 3 Marie Janette: Hoe kan ik een video toevoegen en hoe stopzetten?
-
-  student 4 Brita: 
-
-  student 5 Milla: 
 
 
   ### Verslag van meeting
@@ -168,8 +161,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - @media query motion stopzetten
   - Met een class op de body kan je de pagina's onderscheiden
   - Met positioning kan je elementen over een element zetten
-  -
-- ...
+
 
 </details>
 
@@ -180,10 +172,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+-Ik kwam er achter dat mijn website nog niet heel toegankelijk is, maar dat komt ook omdat mijn website nog niet helemaal af was.
+-Zo is de focus state nog niet heel mooi 
+-Ik moet nog een aantal alt teksten toevoegen
+-Het contrast is wel goed op mijn pagina
+-Ik heb verschillende headings op volgorde
+-Ik heb nog geen skiplink
 
 </details>
 
@@ -201,14 +198,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  student 1 Elles: 
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  student 2 Artemis: 
 
+  student 3 Marie Janette: 
+
+  student 4 Brita: 
+
+  student 5 Milla:
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -258,9 +256,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  -Avison, J. (2020, January 9). McDonald’s Green European Revolution. Into the Consumerverse. https://theconsumerverse.wordpress.com/2019/10/11/mcdonalds-green-european-revolution/
+  -Call 610 - 465 - - White Hamburger Menu Icon PNG - (1168x1084) pNg clipart download. ClipartMax.com. (n.d.). ClipartMax.com. https://www.clipartmax.com/max/m2i8G6G6b1m2A0G6/
+  - McDonald’s Nederland: Burgers, Franse Friet en veel meer! (n.d.). https://www.mcdonalds.com/nl/nl-nl.html
+  - Goed om te weten. (n.d.). https://www.mcdonalds.com/nl/nl-nl/goedomteweten.html
+  - Speedee Fonts Free download. (n.d.). OnlineWebFonts. https://www.onlinewebfonts.com/search?q=Speedee
+  - Grid Garden. (n.d.). Een Spel Om CSS Grid Te Leren. https://cssgridgarden.com/#nl
+  - Positioning a Button on the Bottom of a Div. (z.d.). | SheCodes. https://www.shecodes.io/athena/4505-positioning-a-button-on-the-bottom-of-a-div
   - voor Het hamburgermenu heb ik de opdrachten uit codepen gebruikt. Alleen kwam ik er bij een paar stappen niet uit, dus heb ik om hulp gevraagd aan een medestudent (Kelly Kha). Zij had de opdracht wel al uitgevoerd.
 
 </details>
