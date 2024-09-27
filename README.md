@@ -120,7 +120,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   student 3 Marie Janette:
   -Een schuifknop, indeling van afbeelding
 
-  student 4 Brita:
+  student 4 Brita: -
 
 
   ### Verslag van meeting
@@ -174,7 +174,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+nog afbeeldingen toevoegen!!!!!!
+  <img src="readme-images/checklist-1.2">
+  <img src="readme-images/checklist-2.2">
+  <img src="readme-images/checklist-3.2">
+  <img src="readme-images/checklist-4.2">
+  <img src="readme-images/checklist-5.2">
+
 -Ik kwam er achter dat mijn website nog niet heel toegankelijk is, maar dat komt ook omdat mijn website nog niet helemaal af was.
 -Zo is de focus state nog niet heel mooi 
 -Ik moet nog een aantal alt teksten toevoegen
@@ -198,23 +204,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  student 1 Elles: 
+  student 1 Elles: Hoe toon je de sluitknop in een hamburger menu? Hoe kan ik de Focus state goed vormgeven, die bij mij een beetje raar.
 
-  student 2 Artemis: 
+  student 2 Marie Janette: Mijn menu verdwijnt achter de teksten hoe kan ik dit oplossen.
 
-  student 3 Marie Janette: 
+  student 3 Brita: Nav naast elkaar flexen? :avtive class toevoegen?
 
-  student 4 Brita: 
-
-  student 5 Milla:
+  student 4 Kelly Neutel: geen vraag gestelt
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+ 
+  - Ik ga mijn sluit button in de nav zetten en deze rechts boven zetten. 
+  - Op het mcdonalds logo ga ik een z-index zetten, zodat deze voor de nav te voor schijn komt.
+  - Focus state kan niet anders getoont worden.
+  - Ik had a op de buttons gezet, maar dat hoeft helemaal niet.
+  - Ik heb Marie Janette geholpen, foor te zeggen dat ze position moest toepassen en een z-index op haar menu moest zetten.
 
 </details>
 

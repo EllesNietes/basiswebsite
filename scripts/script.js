@@ -1,17 +1,16 @@
 // JavaScript Document
 console.log("hi");
 
-var menu = document.querySelector('header > button');
+var hamburgerMenu = document.querySelector('header > button');
 
-menu.addEventListener('click', openMenu);
+hamburgerMenu.addEventListener('click', openMenu);
 
 function openMenu () {
   var nav = document.querySelector('nav');
   nav.classList.toggle('toonMenu');
 }
 
-var sluit =
-document.querySelector('nav button');
+var sluit = document.querySelector('nav button');
 
 sluit.addEventListener('click', sluitMenu);
 

@@ -31,6 +31,7 @@ html {
 	padding: 0.2em;
 }
 
+
 /*hamburger menu*/
 h1 {
 	margin: 0;
@@ -56,12 +57,11 @@ header li a {
 
 
 header > button {
-  order:0;
   background: none;
   border: none;
   margin-right: -2em;
-  z-index: 2;
   position: relative;
+  margin: 0;
 }
 
 header > button:nth-of-type(2) {
@@ -76,8 +76,6 @@ header > button:nth-of-type(2) {
 
   
 nav {
-	position: static;
-	translate: unset;
 	padding: 1em;
 	background-image: none;
 	position: fixed;
@@ -101,15 +99,14 @@ nav {
 
   li {
 	list-style-type: none;
-    border-bottom: dashed;
-	border-bottom-width: 0.2em;
-    border-color: white;
-    border-width: 0.1em;
     font-size: larger;
   }
 
 /*einde hamburger menu*/
 
+body {
+	font-family: 'Speedee Bold';
+}
 
 header a{
 	text-decoration: none;
@@ -122,28 +119,52 @@ header nav {
 	text-decoration: none;
 	left: auto;
 	bottom: 40em;
+	transition: 1s;
+}
+
+header nav button{
+	translate: 0 -200%;
+	position: absolute;
 }
 
 @media (max-width: 65em) {
 	header nav {
-		translate: -200% 0%;
+		translate: 0% -170%;
+		width: 100%;
 	}
 }
 .toonMenu {
 	translate: 0% 0%;
 	background-color: var(--header);
-    top: 3em;
 	bottom: 0;
 	flex-direction: column;
     width: 100%;
     align-items: center;
 	justify-content: center;
-
 }
+
+.toonMenu li {
+	list-style-type: none;
+    border-bottom: dashed;
+	border-bottom-width: 0.2em;
+    border-color: white;
+    border-width: 0.1em;
+}
+
+.toonMenu button {
+	background-color: var(--header);
+	right: 0;
+	top: 0;	
+	translate: 0;
+}
+
+
 
 header a img{
 	width: 3em;
-	margin: 0 -1.5em
+	margin: 0 -1.5em;
+	position: relative;
+	z-index: 1;
 }
 
 header img:nth-child(2) {
@@ -151,31 +172,35 @@ header img:nth-child(2) {
 }
 
 header nav img{
-	width: 22px;
+	width: 2.53em;
 	margin: 0.1em 0;
 	margin-bottom: 1em;
-
 }
 
 
-header nav button{
-	background-color: var(--header);
-	text-decoration: none;
-	border: none;
-	margin-top: 12px;
-}
+
 
 section {
 margin: 1em;
+transition: 2s;
+}
+
+@media (min-width: 80em){
+	section {
+		margin: 1.5em 10em;
+		margin-bottom: 0;
+		transition: 2s;
+	}
 }
 
 /*grid afbeeldingen met tekst*/
 section:nth-of-type(2) {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(2, auto); 
-  	gap: 1em;
+	grid-template-rows: repeat(2, fr); 
+  	gap: 0em 6em;
 	max-width: 100%;
+	margin-top: 0;
 } /*Grid Garden. (n.d.). Een Spel Om CSS Grid Te Leren. https://cssgridgarden.com/#nl*/
 
 @media (max-width: 60em){
@@ -188,8 +213,8 @@ section:nth-of-type(2) {
   section:nth-of-type(2) article {
 	border: none;
 	background: white;
-	margin: 1.9em 0.6em;
-	padding: 0 0.4em;
+	margin: 1.9em 0;
+	padding:
 
   }
   
@@ -202,8 +227,8 @@ section:nth-of-type(2) img {
 
     section:nth-of-type(3) {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(15em, 1fr));
-  gap: 1em;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 6em;
   position: relative;
   }
 
@@ -217,13 +242,13 @@ section:nth-of-type(2) img {
 		display: flex;
 		flex-wrap: wrap;
 	}
-	}
+}
 
   section:nth-of-type(3) article {
 	border: none;
 	background: white;
-	margin: 3em 0.6em;
-	padding: 0 0.4em;
+	margin: 3em 0;
+	padding: 
 
   }
   
@@ -251,26 +276,49 @@ img {
 	margin: 0;
 }
 
+/*Wit vlak met tekst*/
+
 section:nth-of-type(1) img{
 	width: -webkit-fill-available;
 	justify-content: center;
 }
 
+section:nth-of-type(1) article{
+	border: solid 0.1em rgb(222, 222, 222);
+	padding: 0;
+	border-radius: 1em;
+}
+
+@media (min-width: 1024px){
+	section:nth-of-type(1) article{
+	position: relative;
+	z-index: 1;
+	background-color: white;
+	width: 25em;
+	left: 1em;
+	bottom: 20em;
+	padding: 1em;
+	border-radius: 1em;
+	margin-bottom: -17em;
+}
+}
+/* */
+
 h2 {
-	font-family: 'McDonalds Helvetica Black' ;
 	font-weight: 100;
 	padding: 0 0.6em;
 	margin: 0;
+	font-size: x-large;
 }
 
 h3 {
-	font-family: 'McDonalds Helvetica Black' ;
-	padding: 0 0.9em;
+	padding: 0 0.6em;
 	margin: 0.5em 0;
+	font-size: x-large;
 }
 
 p {
-	font-family: 'Speedee Bold',Arial, Helvetica, sans-serif ;
+	font-family: Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
 	padding: 0 1em;
 	font-weight: lighter;
 	text-align: left;
@@ -295,35 +343,17 @@ p {
 } /*Icons made from <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed by CC BY 4.0*/
 
 	/*Dafont. (2024, March 15). McDonald’s Font. Dafont Free. https://www.dafontfree.io/mcdonalds-font/*/
-a button  {
+button  {
 	margin: 1em;
 	background-color: var(--color-button);
 	border: none;
 	padding: 1em;
 	border-radius: 0.2em;
+	cursor: pointer;
 }
 
 body {
 	margin: 0;
-}
-
-section:nth-of-type(1) article{
-	border: solid 0.1em rgb(222, 222, 222);
-	padding: 0;
-}
-
-@media (min-width: 1024px){
-	section:nth-of-type(1) article{
-	position: relative;
-	z-index: 1;
-	background-color: white;
-	width: 25em;
-	left: 1em;
-	bottom: 20em;
-	padding: 1em;
-	border-radius: 1em;
-	margin-bottom: -17em;
-}
 }
 
 @media (min-width: 1024px){
@@ -339,14 +369,6 @@ section:nth-of-type(1) article{
 	}
 }
 
-
-
-
-
-
-button {
-	cursor: pointer;
-}
 
 
 @keyframes button-animation {
@@ -385,6 +407,66 @@ header a:hover {
 
 /*pagina 2 */
 
-pagina-2 {
-
+.pagina-2 h1 {
+	text-align: center;
+	font-size: xx-large;
+	margin: 1em 0;
 }
+
+.pagina-2 section:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 0em 6em;
+    max-width: 100%;
+    margin-top: 0;
+	position: relative;
+}
+
+@media (max-width: 60em) {
+    .pagina-2 section:nth-of-type(2) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.pagina-2 p {
+	padding: 0;
+}
+
+.pagina-2 article p {
+	padding: 0 1em;
+}
+
+.pagina-2 h2 {
+	margin-left: 6em;
+	margin-top: 2em;
+}
+
+.pagina-2 h2:nth-of-type(2) {
+	text-align: center;
+	margin: 0;
+	font-size: xx-large;
+}
+
+.pagina-2 section:nth-of-type(2) article {
+	border: solid 0.1em rgb(222, 222, 222);
+	border-radius: 1em;
+	padding-bottom: 3em;
+}
+
+
+.pagina-2 section:nth-of-type(3) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 6em;
+    position: relative;
+}
+.pagina-2 section:nth-of-type(3) article {
+    border: none;
+    background: white;
+    margin: 3em 0;
+	border: solid 0.1em rgb(222, 222, 222);
+	border-radius: 1em;
+}
+  
