@@ -267,6 +267,7 @@ nog afbeeldingen toevoegen!!!!!!
   - Speedee Fonts Free download. (n.d.). OnlineWebFonts. https://www.onlinewebfonts.com/search?q=Speedee
   - Grid Garden. (n.d.). Een Spel Om CSS Grid Te Leren. https://cssgridgarden.com/#nl
   - Positioning a Button on the Bottom of a Div. (z.d.). | SheCodes. https://www.shecodes.io/athena/4505-positioning-a-button-on-the-bottom-of-a-div
+  - Equal width columns in CSS Grid. (n.d.). Stack Overflow. https://stackoverflow.com/questions/47601564/equal-width-columns-in-css-grid
   - voor Het hamburgermenu heb ik de opdrachten uit codepen gebruikt. Alleen kwam ik er bij een paar stappen niet uit, dus heb ik om hulp gevraagd aan een medestudent (Kelly Kha). Zij had de opdracht wel al uitgevoerd.
 
 </details>
