@@ -547,3 +547,17 @@ header a:hover {
 		padding-bottom: 5em;
 		}
 	}
+
+	
+.pagina-2 section:nth-of-type(5){
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pagina-2 section:nth-of-type(5) img {
+	width: 100%;
+}
+
+.pagina-2 section:nth-of-type(5) p {
+	margin: 1em;
+}
