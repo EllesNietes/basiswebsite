@@ -1,22 +1,22 @@
 // JavaScript Document
-console.log("hi");
-
 var hamburgerMenu = document.querySelector('header > button');
 
-hamburgerMenu.addEventListener('click', openMenu);
+var sluit = document.querySelector('nav button');
+
 
 function openMenu () {
   var nav = document.querySelector('nav');
   nav.classList.toggle('toonMenu');
 }
 
-var sluit = document.querySelector('nav button');
+hamburgerMenu.addEventListener('click', openMenu);
 
-sluit.addEventListener('click', sluitMenu);
 
 function sluitMenu () {
   var nav = document.querySelector('nav');
   nav.classList.remove('toonMenu');
 }
+
+sluit.addEventListener('click', sluitMenu);
 
 

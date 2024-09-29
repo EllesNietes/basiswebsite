@@ -18,10 +18,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Elles Kreuk
 
   #### Je startniveau:
-  Blauw (kies uit zwart, rood óf blauw)
+  Blauw 
 
   #### Je focus:
-  Surface plane (kies uit responsive óf surface plane)
+  Surface plane 
  
 </details>
 
@@ -53,11 +53,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   Met de screenreader heb je geen volgend kopniveau. Als je op de k drukt ga je meteen helemaal naar beneden bij de footer. Als ik op de h druk ga je naar de stukjes die gaan over het vinden van een baan. Als je een aantal keer op het pijltje drukt gaat de screenreader de woorden spellen. Heel veel funties worden voorgelezen met koppeling etc. Zo weet je wel meteen dat je daar op kan klikken. Het legt bij een aantal uit wat je bij die koppeling kan doen. Als je met de tabtoets over de pagina gaat komt er een zwart randje om de verschillende funties.
 
-  <img src="readme-images/checklist-1">
-  <img src="readme-images/checklist-2">
-  <img src="readme-images/checklist-3">
-  <img src="readme-images/checklist-4">
-  <img src="readme-images/checklist-5">
+  <img src="readme-images/checklist-1" width="375px" alt="Checklist test 1 bladzijde 1">
+  <img src="readme-images/checklist-2" width="375px" alt="Checklist test 1 bladzijde 2">
+  <img src="readme-images/checklist-3" width="375px" alt="Checklist test 1 bladzijde 3">
+  <img src="readme-images/checklist-4" width="375px" alt="Checklist test 1 bladzijde 4">
+  <img src="readme-images/checklist-5" width="375px" alt="Checklist test 1 bladzijde 5">
 
   ### Bevindingen
 -De website heeft veel errors in de html.
@@ -75,18 +75,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
   <img src="readme-images/Breakdownschets.png" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
-  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">  
 
 </details>
 
@@ -124,7 +118,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - focus state voor toegankelijkheid
   - op de body een class zetten op de 2e pagina (aan docent vragen) en anders een 2e css
@@ -143,7 +136,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik was eigenlijk nog niet verder gegaan aan mijn website, dus heb ik niet een foto om te laten zien hoe ver ik was.
 
 
   ### Agenda voor meeting
@@ -174,19 +167,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
 
   ### Bevindingen
-nog afbeeldingen toevoegen!!!!!!
-  <img src="readme-images/checklist-1.2">
-  <img src="readme-images/checklist-2.2">
-  <img src="readme-images/checklist-3.2">
-  <img src="readme-images/checklist-4.2">
-  <img src="readme-images/checklist-5.2">
+  <img src="readme-images/checklist-1.2.jpeg" width="375px" alt="Checklist test 2 bladzijde 1">
+  <img src="readme-images/checklist-2.2.jpeg" width="375px" alt="Checklist test 2 bladzijde 2">
+  <img src="readme-images/checklist-3.2.jpeg" width="375px" alt="Checklist test 2 bladzijde 3">
+  <img src="readme-images/checklist-4.2.jpeg" width="375px" alt="Checklist test 2 bladzijde 4">
+  <img src="readme-images/checklist-5.2.jpeg" width="375px" alt="Checklist test 2 bladzijde 5">
 
 -Ik kwam er achter dat mijn website nog niet heel toegankelijk is, maar dat komt ook omdat mijn website nog niet helemaal af was.
 -Zo is de focus state nog niet heel mooi 
 -Ik moet nog een aantal alt teksten toevoegen
 -Het contrast is wel goed op mijn pagina
 -Ik heb verschillende headings op volgorde
--Ik heb nog geen skiplink
+-Ik heb geen skiplink
 
 </details>
 
@@ -197,10 +189,18 @@ nog afbeeldingen toevoegen!!!!!!
 ## Voortgang 3 (week 4)
 
 <details>
-  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - Ik had moeite met het toevoegen van een sluit knop in het menu. 
+  - Het maken van de grids ging erg goed.
+  - Het potitioneren lukte ook.
+  - Ik had wel al de html voor de 2e pagina, alleen moest ik deze nog stylen.
+
+
+ <img src="readme-images/menu-zonder-sluitknop.png" width="375px" alt="Sluitknop kwam niet tevoorschijn rechts boven">
+ <img src="readme-images/grid-1.png" width="375px" alt="Positioneren 1e pagina">
+ <img src="readme-images/grid-2.png" width="375px" alt="Grid 1e pagina">
+
 
 
   ### Agenda voor meeting
@@ -232,19 +232,33 @@ nog afbeeldingen toevoegen!!!!!!
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/homepagina-mc.jpg" width="375px" alt="Uitomst homepagina">
+  <img src="readme-images/homepagina-mc-telefoon.jpg" width="375px" alt="Uitomst homepagina telefoon">
+  <img src="readme-images/2e-pagina-mc.jpg" width="375px" alt="Uitomst goed om te weten pagina">
+  <img src="readme-images/2e-pagina-mc-telefoon.jpg" width="375px" alt="Uitomst goed om te weten pagina telefoon">
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
+  - Ik heb dit blok geleerd om grids te maken, te positioneren, animaties te maken.
+  - Ook heb ik nu gedacht aan de toegankelijkheid, door als je over een knop hovert, je een kleur krijgt en de knop groter wordt. Of door alt teksten en aria labels toe te voegen. Ook heb ik een focus state toegevoegd.
+  - Ook heb ik gekeken naar welke aanpassingen in kon maken aan het orginele design. Ik heb de randen ronder gemaakt en de header een pop of color gegeven. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/Grid-uitkomst.png" width="375px" alt="Grid">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+ - Ik wilde een skip link maken, ik was hier ook mee bezig. Alleen had ik net niet genoeg tijd om het voor elkaar te krijgen, ik moest dan alles in mijn css aanpassen met main ervoor. Eerst had ik wel wat moeite met het maken van de grids, maar na het terug kijken van de opdrachten die we hiervoor hadden gemaakt ben ik er uiteindelijk uitgekomen.
+ - Het maken van het hamburger menu vond ik wel erg lastig, ik heb ook om hulp gevraagd aan de docent, studentassistent en medestudenten.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/skiplink.jpeg" width="375px" alt="Skiplink html">
+  <img src="readme-images/skiplink-css.jpeg" width="375px" alt="Skiplink css">
+ 
+
+  
+
+  
 </details>
 
 
@@ -254,11 +268,6 @@ nog afbeeldingen toevoegen!!!!!!
 ## Bronnenlijst
 
 <details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
-
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
 
   - Avison, J. (2020, January 9). McDonald’s Green European Revolution. Into the Consumerverse. https://theconsumerverse.wordpress.com/2019/10/11/mcdonalds-green-european-revolution/
   -Call 610 - 465 - - White Hamburger Menu Icon PNG - (1168x1084) pNg clipart download. ClipartMax.com. (n.d.). ClipartMax.com. https://www.clipartmax.com/max/m2i8G6G6b1m2A0G6/
@@ -270,5 +279,6 @@ nog afbeeldingen toevoegen!!!!!!
   - Equal width columns in CSS Grid. (n.d.). Stack Overflow. https://stackoverflow.com/questions/47601564/equal-width-columns-in-css-grid
   - voor Het hamburgermenu heb ik de opdrachten uit codepen gebruikt. Alleen kwam ik er bij een paar stappen niet uit, dus heb ik om hulp gevraagd aan een medestudent (Kelly Kha). Zij had de opdracht wel al uitgevoerd.
   - W3Schools.com. (n.d.). https://www.w3schools.com/accessibility/accessibility_skip_links.php
+  - ChatGPT. (n.d.). https://chatgpt.com/c/66f9c43e-4828-8010-8731-eafaa5b723e7 van de onderwijsassistent hoefde er geen a om de button te staan om het te laten werken, alleen werkten de linkjes daardoor niet. Dus heb ik het proberen op te zoeken en uiteindelijk heb ik het aan chat gpt gevraagd.
 
 </details>

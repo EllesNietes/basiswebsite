@@ -23,24 +23,18 @@ html {
 	--color-button:#ffce00;
 	--color-button-hover: #ff9808;
 	--header: #06300A;
+	--border: #dddddd;
 }
 
 :focus {
-	border: #2e9839;
+	border: red;
 	border-radius: 2px;
-	padding: 0.2em;
+	padding: 0.3em;
 }
 
-#main {
-	position: absolute;
-	bottom: 1000em;
-}
+::selection{
 
-#main:focus {
-	position: static;
-	left: 0;
-	color: var(--color-button);
-	border: none;
+	color:  red;
 }
 
 /*hamburger menu*/
@@ -69,7 +63,6 @@ header li a {
 
 header > button {
   background: none;
-  border: none;
   margin-right: -2em;
   position: relative;
   margin: 0;
@@ -142,7 +135,6 @@ header nav button{
 @media (max-width: 60em) {
 	header nav {
 		translate: 0% -170%;
-		width: 100%;
 	}
 }
 .toonMenu {
@@ -159,7 +151,7 @@ header nav button{
 	list-style-type: none;
     border-bottom: dashed;
 	border-bottom-width: 0.2em;
-    border-color: white;
+    border-color: var(--color-background);
     border-width: 0.1em;
 }
 
@@ -224,7 +216,6 @@ section:nth-of-type(2) {
 
   section:nth-of-type(2) article {
 	border: none;
-	background: white;
 	margin: 1.2em 0;
   }
   
@@ -260,7 +251,6 @@ section:nth-of-type(3) {
 
   section:nth-of-type(3) article {
 	border: none;
-	background: white;
 	margin: 1.2em 0;
   }
   
@@ -273,19 +263,10 @@ section:nth-of-type(3) img {
 
 /*Einde flexbox afbeeldingen met tekst*/
 
-
-  
-
-  
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
 img {
 	width: 2em;
 	margin: 0;
+	border-radius: 1em;
 }
 
 /*Wit vlak met tekst*/
@@ -296,7 +277,7 @@ section:nth-of-type(1) img{
 }
 
 section:nth-of-type(1) article{
-	border: solid 0.1em rgb(222, 222, 222);
+	border: solid 0.1em var(--border);
 	padding: 0;
 	border-radius: 1em;
 }
@@ -339,7 +320,6 @@ p {
 @font-face {
     font-family: 'McDonalds Helvetica Black';
     font-style: normal;
-    font-weight: lighter;
     src: local('McDonalds Helvetica Black'), url('McDonalds_Helvetica.woff') format('woff'); /* McDonalds Helvetica Font | Font.Download. (n.d.). https://font.download/font/mcdonalds-helvetica*/
     }
 
@@ -362,6 +342,7 @@ button  {
 	padding: 1em;
 	border-radius: 0.2em;
 	cursor: pointer;
+	font-family: Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
 }
 
 body {
@@ -384,7 +365,6 @@ body {
 
 
 @keyframes button-animation {
-
   0%{
     scale:1;
   }
@@ -395,7 +375,7 @@ body {
   }
   100%{
     scale:1;
-  }
+ }
 }
 
 article button:hover {
@@ -410,12 +390,6 @@ article button:hover  {
 header a:hover {
 	color: var(--color-button);
 }
-
-::selection{
-	background-color: #ffce00;
-	color: white;
-}
-
 
 /*pagina 2 */
 
@@ -451,6 +425,7 @@ header a:hover {
 .pagina-2 h2 {
 	text-align: center;
 	font-size: xxx-large;
+	margin-top: 1em;
 }
 
 .pagina-2 section:nth-of-type(2) {
@@ -467,12 +442,6 @@ header a:hover {
         display: flex;
         flex-wrap: wrap;
     }
-}
-
-.pagina-2 h2:nth-of-type(2) {
-	text-align: center;
-	margin: 0;
-	font-size: xx-large;
 }
 
 .pagina-2 section:nth-of-type(2) article {
@@ -589,8 +558,10 @@ hr {
     margin-top: 2em;
 }
 
-footer section:nth-of-type(1) p {
+footer section:nth-of-type(1) a {
 	font-weight: bold;
+	text-decoration: none;
+	color: var(--color-text);
 	}
 
 footer section:nth-of-type(2) p {
@@ -610,6 +581,7 @@ flex-direction: row;
 		display: flex;
         flex-direction: column;
         align-items: center;
+		gap: 0.5em;
     }
 }
 
@@ -626,9 +598,10 @@ footer section:nth-of-type(2) img {
 	width: 3em;
 }
 
-    footer section:nth-of-type(2) {
-		gap: 10px;
-        float: left;
-		margin-left: 0;
+footer section:nth-of-type(2) {
+	gap: 10px;
+	float: left;
+	margin-left: 0;
+	
     }
 
