@@ -260,7 +260,7 @@ nog afbeeldingen toevoegen!!!!!!
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  -Avison, J. (2020, January 9). McDonald’s Green European Revolution. Into the Consumerverse. https://theconsumerverse.wordpress.com/2019/10/11/mcdonalds-green-european-revolution/
+  - Avison, J. (2020, January 9). McDonald’s Green European Revolution. Into the Consumerverse. https://theconsumerverse.wordpress.com/2019/10/11/mcdonalds-green-european-revolution/
   -Call 610 - 465 - - White Hamburger Menu Icon PNG - (1168x1084) pNg clipart download. ClipartMax.com. (n.d.). ClipartMax.com. https://www.clipartmax.com/max/m2i8G6G6b1m2A0G6/
   - McDonald’s Nederland: Burgers, Franse Friet en veel meer! (n.d.). https://www.mcdonalds.com/nl/nl-nl.html
   - Goed om te weten. (n.d.). https://www.mcdonalds.com/nl/nl-nl/goedomteweten.html
@@ -269,5 +269,6 @@ nog afbeeldingen toevoegen!!!!!!
   - Positioning a Button on the Bottom of a Div. (z.d.). | SheCodes. https://www.shecodes.io/athena/4505-positioning-a-button-on-the-bottom-of-a-div
   - Equal width columns in CSS Grid. (n.d.). Stack Overflow. https://stackoverflow.com/questions/47601564/equal-width-columns-in-css-grid
   - voor Het hamburgermenu heb ik de opdrachten uit codepen gebruikt. Alleen kwam ik er bij een paar stappen niet uit, dus heb ik om hulp gevraagd aan een medestudent (Kelly Kha). Zij had de opdracht wel al uitgevoerd.
+  - W3Schools.com. (n.d.). https://www.w3schools.com/accessibility/accessibility_skip_links.php
 
 </details>

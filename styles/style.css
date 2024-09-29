@@ -31,6 +31,17 @@ html {
 	padding: 0.2em;
 }
 
+#main {
+	position: absolute;
+	bottom: 1000em;
+}
+
+#main:focus {
+	position: static;
+	left: 0;
+	color: var(--color-button);
+	border: none;
+}
 
 /*hamburger menu*/
 h1 {
