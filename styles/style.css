@@ -9,10 +9,6 @@ html {
 	zoom: normal;
 }
 
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -27,14 +23,19 @@ html {
 }
 
 :focus {
-	border: red;
-	border-radius: 2px;
-	padding: 0.3em;
+	outline: 2px solid red;
+	border-radius: 1em;
+	padding: 1em;
 }
 
 ::selection{
+	background-color:  var(--color-button);
+	color: white;
+}
 
-	color:  red;
+body {
+	font-family: 'Speedee Bold';
+	margin: 0;
 }
 
 /*hamburger menu*/
@@ -64,7 +65,6 @@ header li a {
 header > button {
   background: none;
   margin-right: -2em;
-  position: relative;
   margin: 0;
   padding: 0;
 }
@@ -79,6 +79,30 @@ header > button:nth-of-type(2) {
 }
 }
 
+header a{
+	text-decoration: none;
+	
+}
+
+header nav {
+	display: flex;
+	gap: 3em;
+	text-decoration: none;
+	left: auto;
+	bottom: 40em;
+	transition: 1s;
+}
+
+header nav button{
+	translate: 0 -200%;
+	position: absolute;
+}
+
+@media (max-width: 60em) {
+	header nav {
+		translate: 0% -170%;
+	}
+}
   
 nav {
 	padding: 1em;
@@ -107,36 +131,6 @@ nav {
     font-size: larger;
   }
 
-/*einde hamburger menu*/
-
-body {
-	font-family: 'Speedee Bold';
-}
-
-header a{
-	text-decoration: none;
-	
-}
-
-header nav {
-	display: flex;
-	gap: 3em;
-	text-decoration: none;
-	left: auto;
-	bottom: 40em;
-	transition: 1s;
-}
-
-header nav button{
-	translate: 0 -200%;
-	position: absolute;
-}
-
-@media (max-width: 60em) {
-	header nav {
-		translate: 0% -170%;
-	}
-}
 .toonMenu {
 	translate: 0% 0%;
 	background-color: var(--header);
@@ -162,8 +156,6 @@ header nav button{
 	translate: 0;
 }
 
-
-
 header a img{
 	width: 3em;
 	margin: 0 -1.5em;
@@ -180,7 +172,7 @@ header nav img{
 	margin: 0.1em 0;
 	margin-bottom: 1em;
 }
-
+/**/
 
 
 
@@ -203,7 +195,6 @@ section:nth-of-type(2) {
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, fr); 
   	gap: 0em 6em;
-	max-width: 100%;
 	margin-top: 0;
 } /*Grid Garden. (n.d.). Een Spel Om CSS Grid Te Leren. https://cssgridgarden.com/#nl*/
 
@@ -227,13 +218,10 @@ section:nth-of-type(2) img {
   }
 
 section:nth-of-type(3) {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  position: relative;
-  gap: 1.2em;
-  }
-
-  section:nth-of-type(3) {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); 
+	position: relative;
+	gap: 1.2em;
 	padding-bottom: 3em;
   }
 
@@ -250,7 +238,6 @@ section:nth-of-type(3) {
 }
 
   section:nth-of-type(3) article {
-	border: none;
 	margin: 1.2em 0;
   }
   
@@ -278,22 +265,21 @@ section:nth-of-type(1) img{
 
 section:nth-of-type(1) article{
 	border: solid 0.1em var(--border);
-	padding: 0;
 	border-radius: 1em;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 60em){
 	section:nth-of-type(1) article{
-	position: relative;
-	z-index: 1;
-	background-color: white;
-	width: 25em;
-	left: 1em;
-	bottom: 20em;
-	padding: 1em;
-	border-radius: 1em;
-	margin-bottom: -17em;
-}
+		position: relative;
+		z-index: 1;
+		background-color: white;
+		width: 25em;
+		left: 1em;
+		bottom: 20em;
+		padding: 1em;
+		border-radius: 1em;
+		margin-bottom: -17em;
+	}
 }
 /* */
 
@@ -321,7 +307,7 @@ p {
     font-family: 'McDonalds Helvetica Black';
     font-style: normal;
     src: local('McDonalds Helvetica Black'), url('McDonalds_Helvetica.woff') format('woff'); /* McDonalds Helvetica Font | Font.Download. (n.d.). https://font.download/font/mcdonalds-helvetica*/
-    }
+}
 
 
 @font-face {
@@ -333,8 +319,8 @@ p {
 	url("https://db.onlinewebfonts.com/t/827d075b1538829cc0db75696e4d5fa2.ttf")format("truetype"),
 	url("https://db.onlinewebfonts.com/t/827d075b1538829cc0db75696e4d5fa2.svg#Speedee Bold")format("svg");
 } /*Icons made from <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed by CC BY 4.0*/
+/*Dafont. (2024, March 15). McDonald’s Font. Dafont Free. https://www.dafontfree.io/mcdonalds-font/*/
 
-	/*Dafont. (2024, March 15). McDonald’s Font. Dafont Free. https://www.dafontfree.io/mcdonalds-font/*/
 button  {
 	margin: 1em;
 	background-color: var(--color-button);
@@ -345,24 +331,17 @@ button  {
 	font-family: Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
 }
 
-body {
-	margin: 0;
-}
-
-@media (min-width: 1024px){
+@media (min-width: 60em){
 	header li{
-	border: none;
+		border: none;
 	}
 }
 
 @media (max-width: 963px){
 	section:nth-of-type(3) button {
-	position: relative;
-
+		position: relative;
 	}
 }
-
-
 
 @keyframes button-animation {
   0%{
@@ -394,14 +373,13 @@ header a:hover {
 /*pagina 2 */
 
 @media (min-width: 1024px) {
-.pagina-2 section:nth-of-type(1) article {
-	margin: 0;
-	position: static;
-	width: 100%;
-	border: none;
-	padding: 0;
-
-}
+	.pagina-2 section:nth-of-type(1) article {
+		margin: 0;
+		position: static;
+		width: 100%;
+		border: none;
+		padding: 0;
+	}
 }
 
 .pagina-2 section:nth-of-type(1) article {
@@ -457,12 +435,6 @@ header a:hover {
 	margin: 0;
 }
 
-
-
-
-
-
-
 .pagina-2 section:nth-of-type(4) {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr)); /*Equal width columns in CSS Grid. (n.d.). Stack Overflow. https://stackoverflow.com/questions/47601564/equal-width-columns-in-css-grid*/
@@ -517,9 +489,9 @@ header a:hover {
 }
 
 @media (min-width: 60em) {
-.pagina-2 section:nth-of-type(4) button {
-    position: absolute;
-    bottom: 4em;
+	.pagina-2 section:nth-of-type(4) button {
+		position: absolute;
+		bottom: 4em;
 	}
 }
 
@@ -545,10 +517,10 @@ header a:hover {
 }
 
 @media (max-width: 60em) {
-.pagina-2 section:nth-of-type(5) {
-	display: flex;
-	flex-wrap: wrap;
-}
+	.pagina-2 section:nth-of-type(5) {
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
 
 /*Footer */
@@ -562,7 +534,7 @@ footer section:nth-of-type(1) a {
 	font-weight: bold;
 	text-decoration: none;
 	color: var(--color-text);
-	}
+}
 
 footer section:nth-of-type(2) p {
 	padding: 0;
@@ -570,10 +542,9 @@ footer section:nth-of-type(2) p {
 
 @media (min-width: 60em) {
 	footer section:nth-of-type(1) {
-display: flex;
-justify-content: space-evenly;
-flex-direction: row;
-}
+		display: flex;
+		justify-content: space-evenly;
+	}
 }
 
 @media (max-width: 60em) {
@@ -590,7 +561,7 @@ flex-direction: row;
 	display: flex;
 	justify-content: space-evenly;
 	flex-direction: row;
-}
+	}
 }
 
 
@@ -603,5 +574,5 @@ footer section:nth-of-type(2) {
 	float: left;
 	margin-left: 0;
 	
-    }
+}
 

@@ -280,5 +280,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - voor Het hamburgermenu heb ik de opdrachten uit codepen gebruikt. Alleen kwam ik er bij een paar stappen niet uit, dus heb ik om hulp gevraagd aan een medestudent (Kelly Kha). Zij had de opdracht wel al uitgevoerd.
   - W3Schools.com. (n.d.). https://www.w3schools.com/accessibility/accessibility_skip_links.php
   - ChatGPT. (n.d.). https://chatgpt.com/c/66f9c43e-4828-8010-8731-eafaa5b723e7 van de onderwijsassistent hoefde er geen a om de button te staan om het te laten werken, alleen werkten de linkjes daardoor niet. Dus heb ik het proberen op te zoeken en uiteindelijk heb ik het aan chat gpt gevraagd.
+  - Icons made from <a href="https://www.onlinewebfonts.com/icon">svg icons</a>is licensed by CC BY 4.0
+- Dafont. (2024, March 15). McDonald’s Font. Dafont Free. https://www.dafontfree.io/mcdonalds-font/
+- McDonalds Helvetica Font | Font.Download. (n.d.). https://font.download/font/mcdonalds-helvetica
+- Equal width columns in CSS Grid. (n.d.). Stack Overflow. https://stackoverflow.com/questions/47601564/equal-width-columns-in-css-grid
 
 </details>
