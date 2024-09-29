@@ -246,6 +246,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Ook heb ik gekeken naar welke aanpassingen in kon maken aan het orginele design. Ik heb de randen ronder gemaakt en de header een pop of color gegeven. 
 
   <img src="readme-images/Grid-uitkomst.png" width="375px" alt="Grid">
+  <img src="readme-images/grid-1.png" width="375px" alt="Positioneren 1e pagina">
+  <img src="readme-images/compleet-menu.png" width="375px" alt="Menu">
+
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -253,12 +256,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  - Het maken van het hamburger menu vond ik wel erg lastig, ik heb ook om hulp gevraagd aan de docent, studentassistent en medestudenten.
 
   <img src="readme-images/skiplink.jpeg" width="375px" alt="Skiplink html">
-  <img src="readme-images/skiplink-css.jpeg" width="375px" alt="Skiplink css">
- 
-
-  
-
-  
+  <img src="readme-images/skiplink-css.jpeg" width="375px" alt="Skiplink css">  
 </details>
 
 

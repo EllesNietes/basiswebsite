@@ -38,12 +38,13 @@ body {
 	margin: 0;
 }
 
-/*hamburger menu*/
+
 h1 {
 	margin: 0;
     font-size: medium;
 }
 
+/*hamburger menu*/
 header{
 	justify-content: space-between;
 	padding: 0 2em;
@@ -73,7 +74,7 @@ header > button:nth-of-type(2) {
 	display: none;
 }
 
-@media (min-width:1040px) {
+@media (min-width: 60em) {
   header > button {
 	display: none;
 }
@@ -91,6 +92,7 @@ header nav {
 	left: auto;
 	bottom: 40em;
 	transition: 1s;
+	padding-top: 0;
 }
 
 header nav button{
@@ -100,7 +102,7 @@ header nav button{
 
 @media (max-width: 60em) {
 	header nav {
-		translate: 0% -170%;
+		translate: 0% -1000%;
 	}
 }
   
@@ -118,7 +120,18 @@ nav {
   nav ul {
     gap: 1em;
     display: flex;
+	flex-flow: column;
+    align-items: center;
+	gap: 2em;
+
   }
+
+  @media (min-width: 60em) {
+	header nav ul {
+  	flex-flow: row;
+	padding-top: 0.8em;
+	}
+}
   
   nav a {
     display: flex;
