@@ -23,9 +23,9 @@ html {
 }
 
 :focus {
-	outline: 2px solid red;
+	outline: 2px solid rgb(0, 0, 0);
 	border-radius: 1em;
-	padding: 1em;
+	padding: 0.8em;
 }
 
 ::selection{
